@@ -1,24 +1,22 @@
 nav.navbar {
-    background-color:#6610f2;
-}
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin: 0 20% 0 20%;
-}
-.centrado{
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: whitesmoke;
-}
-#about-me{
-    display: flex;
-    text-align: justify;
+    background-color:#660066;
 }
 
-#about-me div{
-flex:3;
+
+.info{
+    background-image: url(../img/1535542_10204811363106073_8105499996062957388_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 10rem;
+    height: 90vh;
+    color: whitesmoke;
+    text-align: center;
+   
+}
+
+@media (max-width: 991.98px) { 
+    .info{
+        width: 100%;
+    }
 }
