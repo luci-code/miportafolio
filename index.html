@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -10,19 +10,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!--Mi script-->
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--My style-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Mi Portafolio</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">Luciani</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav ml-auto">
                 <ul class="navbar-nav">
@@ -44,77 +53,238 @@
     </nav>
 
     <header class="info d-flex align-items-end justify-content-center ">
-        <div class="centrado ">
+        <div class="centrado">
             <h2>YO SOY</h2>
-            <hr style="width: 20%; border-color:whitesmoke;" />
+            <hr style="width: 90%; height:2px; background-color:whitesmoke; border-color:whitesmoke;" />
             <h1>LUCIANI</h1>
         </div>
     </header>
 
-    <section id="about-me" class="d-none d-sm-block ">
-        <div class="text-center ml-5 mr-5 pt-5">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dolorem earum aut perspiciatis
-                mollitia
-                consequuntur, voluptates suscipit dolore ex, corrupti voluptatem iusto natus veniam assumenda at ab quos
-                quas
-                amet.</p><br>
+    <section id="about" class=" container-fluid d-none d-sm-block px-5 "
+        style="background-color: #ECECEC; background-size: 100%;">
+        <div class="row">
+            <div class="text-center ml-5 mr-5 pt-5">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dolorem earum aut perspiciatis
+                    mollitia
+                    consequuntur, voluptates suscipit dolore ex, corrupti voluptatem iusto natus veniam assumenda at ab
+                    quos
+                    quas
+                    amet.</p>
+                <hr style="width: 25%; height:2px; background-color: black; margin-bottom: 5rem; border-color:black;" />
+            </div>
+
+
+            <div class="col-6 text-justify font-size:1.25rem">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit reprehenderit, iste
+                    veritatis possimus nemo ad animi officia, debitis incidunt quos cupiditate eos dolor quas
+                    similique!
+                    Vel provident accusamus distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Fugit
+                    mollitia modi recusandae, sapiente tempore laboriosam. Nostrum quasi numquam harum dignissimos
+                    officia natus accusamus laboriosam nulla error alias, quas libero unde. Lorem, ipsum dolor sit
+                    amet
+                    consectetur adipisicing elit. Debitis sit tempore, veniam ipsam consectetur possimus ut quia! Ex
+                    inventore repellat itaque amet, non velit, molestiae odit corporis earum totam mollitia. Lorem
+                    ipsum, dolor sit amet consectetur adipisicing elit. Molestiae debitis facilis, obcaecati, soluta
+                    praesentium consequuntur minus molestias voluptates voluptate quis quas quae aspernatur amet
+                    accusamus facere possimus reiciendis natus vel.</p><br>
+            </div>
+            <div class="col-6 text-justify font-size:1.25rem">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit reprehenderit,
+                    iste
+                    veritatis possimus nemo ad animi officia, debitis incidunt quos cupiditate eos dolor quas
+                    similique!
+                    Vel provident accusamus distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit.
+                    Fugit
+                    mollitia modi recusandae, sapiente tempore laboriosam. Nostrum quasi numquam harum
+                    dignissimos
+                    officia natus accusamus laboriosam nulla error alias, quas libero unde. Lorem, ipsum dolor
+                    sit
+                    amet
+                    consectetur adipisicing elit. Debitis sit tempore, veniam ipsam consectetur possimus ut
+                    quia! Ex
+                    inventore repellat itaque amet, non velit, molestiae odit corporis earum totam mollitia.
+                    Lorem
+                    ipsum, dolor sit amet consectetur adipisicing elit. Molestiae debitis facilis, obcaecati,
+                    soluta
+                    praesentium consequuntur minus molestias voluptates voluptate quis quas quae aspernatur amet
+                    accusamus facere possimus reiciendis natus vel.</p><br>
+            </div>
         </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container-fluid text-center my-5">
+        <h2 class="display-3 font-weight-bold my-4">Mi experiencia</h2>
+        <hr style="width: 20%; height:2px; background-color: black; margin-bottom: 5rem; border-color:black;" />
 
 
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-university fa-3x my-3"></i>
+                <h3 class="my-3">Ingenieria Metalurgica</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit reprehenderit, iste
-                        veritatis possimus nemo ad animi officia, debitis incidunt quos cupiditate eos dolor quas
-                        similique!
-                        Vel provident accusamus distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Fugit
-                        mollitia modi recusandae, sapiente tempore laboriosam. Nostrum quasi numquam harum dignissimos
-                        officia natus accusamus laboriosam nulla error alias, quas libero unde. Lorem, ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Debitis sit tempore, veniam ipsam consectetur possimus ut quia! Ex
-                        inventore repellat itaque amet, non velit, molestiae odit corporis earum totam mollitia. Lorem
-                        ipsum, dolor sit amet consectetur adipisicing elit. Molestiae debitis facilis, obcaecati, soluta
-                        praesentium consequuntur minus molestias voluptates voluptate quis quas quae aspernatur amet
-                        accusamus facere possimus reiciendis natus vel.</p><br>
-                </div>
-                <div class="col text-justify">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit reprehenderit,
-                        iste
-                        veritatis possimus nemo ad animi officia, debitis incidunt quos cupiditate eos dolor quas
-                        similique!
-                        Vel provident accusamus distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.
-                        Fugit
-                        mollitia modi recusandae, sapiente tempore laboriosam. Nostrum quasi numquam harum
-                        dignissimos
-                        officia natus accusamus laboriosam nulla error alias, quas libero unde. Lorem, ipsum dolor
-                        sit
-                        amet
-                        consectetur adipisicing elit. Debitis sit tempore, veniam ipsam consectetur possimus ut
-                        quia! Ex
-                        inventore repellat itaque amet, non velit, molestiae odit corporis earum totam mollitia.
-                        Lorem
-                        ipsum, dolor sit amet consectetur adipisicing elit. Molestiae debitis facilis, obcaecati,
-                        soluta
-                        praesentium consequuntur minus molestias voluptates voluptate quis quas quae aspernatur amet
-                        accusamus facere possimus reiciendis natus vel.</p><br>
-                </div>
+            <div class="col-md-6">
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3">Fotógrafa de comida</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
 
     </section>
 
+    <section id="work" class="container-fluid my-5 p-5"  style="background-color:#660066 ;">
+        <h2 class="display-4 text-center font-weight-bold text-light mb-3">Mis últimos trabajos</h2>
+        <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid"  src="assets/img/meet&coff.png" alt="meetandcoffee">
+            <div class="card-body">
+                <h5 class="card-title">Meet&Coffee</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid" src="assets/img/iguana.png" alt="iguana">
+            <div class="card-body">
+                <h5 class="card-title">Iguana</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid"src="assets/img/suricata.png" alt="suricata">
+            <div class="card-body">
+                <h5 class="card-title">Suricata</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid"src="assets/img/cuppon.png" alt="cuppon">
+            <div class="card-body">
+                <h5 class="card-title">Cuppon</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid"  src="assets/img/ricomida.png" alt="ricomida">
+            <div class="card-body">
+                <h5 class="card-title">Ricomida</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mb-4"> 
+        <div class="card">
+            <img class="img-fluid"  src="assets/img/olivia-ros.png" alt="Olivia">
+            <div class="card-body">
+                <h5 class="card-title">Olivia Ros</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+
     <section id="contact" class="container my-5">
         <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
-        <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-      </section>
-  
-      <footer class="bg-dark text-center text-light p-3">
-        <p>Olivia Ros 2019. Todos los derechos reservados.</p>
-      </footer>
+        <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+        <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ"
+            style="width: 100%; height: 500px;"></div>
+        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+                href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+                style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
+
+    <div class="container-fluid py-2" style="background-color:#582C5F ;">
+        <div class="row">
+            <div class="col-6 p-4 text-right text-white">
+                <h2 class="font-weight-bold">Mis redes</h2>
+            </div>
+            <div class="col-4 text-white pt-4 pb-5 ">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active text-center">
+                            <div class="row">
+                                <div class="col-4">
+                                    <i class="fab fa-facebook-f fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="Facebook"></i>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fab fa-twitter fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="Twitter"></i>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fab fa-instagram fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="Instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item text-center">
+                            <div class="row">
+                                <div class="col-4">
+                                    <i class="fab fa-github fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="GitHub"></i>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fab fa-linkedin-in fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="Linkedin"></i>
+                                </div>
+                                <div class="col-4">
+                                    <i class="fab fa-google fa-2x" data-container="body" data-toggle="popover"
+                                        data-trigger="hover" data-placement="bottom" data-content="Google"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 100%; height:1px; background-color:#ECECEC; border-color:#ECECEC;" />
+    </div>
+
+    <footer class=" text-center text-light p-3" style="background-color:#582C5F">
+        <p>Luciani Serrano. Todos los derechos reservados.</p>
+    </footer>
 
 
 
@@ -130,6 +300,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+    <!--Mi script-->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
